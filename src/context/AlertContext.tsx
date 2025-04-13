@@ -58,10 +58,10 @@ export const AlertsProvider: React.FC<{ children: ReactNode }> = ({
   const [alertQueue, setAlertQueue] = useState<Toast[]>([]);
   const [alertHistory, setAlertHistory] = useState<Toast[]>([]);
   const [showConfetti, setShowConfetti] = useState(false);
-  
+
   const maxHistory = 50;
   const maxAlerts = 2;  
-  const alertDelay = 500;
+  // const alertDelay = 500;
 
   const showAlert = (toast: ToastEvent) => {
     const newAlert: Toast = toastWithMetadata(toast);

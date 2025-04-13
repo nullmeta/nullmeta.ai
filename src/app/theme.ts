@@ -14,19 +14,19 @@ const secondary = {
   contrastText: "black",
 };
 
-const tertiary = {
-  main: "#E5FC1C",
-  light: "#EDFF85",
-  dark: "#A0C300",
-  contrastText: "black",
-};
+// const tertiary = {
+//   main: "#E5FC1C",
+//   light: "#EDFF85",
+//   dark: "#A0C300",
+//   contrastText: "black",
+// };
 
-const bold = {
-  main: "#ff0b48",
-  light: "#FF0BB2",
-  dark: "#FF0BB2",
-  contrastText: "black",
-};
+// const bold = {
+//   main: "#ff0b48",
+//   light: "#FF0BB2",
+//   dark: "#FF0BB2",
+//   contrastText: "black",
+// };
 
 const success = {
   main: "#7bba1c",
