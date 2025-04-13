@@ -1,8 +1,7 @@
 'use client';
 
-import { Container, Typography, Box, useTheme } from '@mui/material';
+import { Container, Box } from '@mui/material';
 import { motion } from 'framer-motion';
-import { useTheme as useCustomTheme } from '@/context/ThemeContext';
 
 import Shuffle from '@/components/Shuffle';
 
@@ -10,8 +9,6 @@ const MotionBox = motion(Box);
 
 
 const Home = () => {
-  const { isDarkMode } = useCustomTheme();
-  return (
     <Container maxWidth="lg">
       <Box
         sx={{
